@@ -1,6 +1,3 @@
-Sure, here is the `README.md` content formatted for easy copy-pasting:
-
-```markdown
 # HTML Basics
 
 ## What is HTML?
@@ -74,10 +71,3 @@ The `href` attribute specifies the URL of the link.
 - `<img>`: Images.
 - `<div>`: Division or container for other elements.
 - `<span>`: Inline container for text or other elements.
-
-## Conclusion
-
-This README provides a basic overview of HTML, how to create a page from a wireframe, and explanations of essential concepts and tags. For more detailed information, refer to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
-```
-
-You can copy and paste this directly into your `README.md` file.
