@@ -97,7 +97,7 @@ header a {
     top: 0;
     left: 0;
     z-index: 0;
-    background: linear-gradient(to bottom, #07162900, #071629FF);
+
 }
 
 #banner-text {
@@ -218,3 +218,122 @@ header a {
     margin: 0;
 }
 
+/* videos section */
+
+#videos-section {
+    text-align: center;
+    color: var(--black);
+    width: 1228px;
+    height: 450px;
+    margin: auto;
+    margin-top: 87px;
+    margin-bottom: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#videos-container {
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    text-align: left;
+}
+
+.video-container {
+    width: 255px;
+    height: 335px;
+}
+
+.video-container * {
+    margin: 0;
+}
+
+.video-container > * {
+    margin: 0px 0px 0px 13px;
+}
+.video {
+    position: relative;
+    display: inline-block;
+}
+.video-img {
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-bottom: 18px;
+    width: 255px;
+    height: 154px;
+}
+
+.play-button {
+    size: 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    pointer-events: none;
+}
+
+.video-container h2 {
+    color: var(--black);
+    height: 48px;
+    margin-bottom: 13px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.video-desc {
+    color: var(--transparent-black);
+    height: 48px;
+    margin-bottom: 13px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.author-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.author-img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+}
+
+.video-author-name, .video-rating p {
+    color: var(--purple);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.video-author-name {
+    margin-left: 13px;
+}
+
+.video-rating {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 22px;
+}
+
+.video-rating * {
+    margin: 0;
+    padding: 0;
+}
+
+.stars-ratings {
+    display: flex;
+    width: 107px;
+    height: 15px;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+/* membership section */
