@@ -41,7 +41,7 @@ header {
     position: absolute;
     top: 35px;
     color: var(--white);
-    z-index: 1;
+    z-index: 2;
 }
 
 #header-div {
@@ -96,8 +96,6 @@ header a {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 0;
-
 }
 
 #banner-text {
@@ -337,3 +335,130 @@ header a {
 }
 
 /* membership section */
+
+#membership-section {
+    color: var(--white);
+    background-color: var(--black);
+    text-align: center;
+    height: 502px;
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+}
+
+#membership-section * {
+    box-sizing: content-box;
+}
+
+#membership-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    margin: 58px auto 85px;
+}
+
+.membership img {
+    height: 35px;
+    margin-bottom: 27px;
+}
+
+.membership-name {
+    font-weight: 600;
+    size: 18px;
+    line-height: 26px;
+    margin-bottom: 13px;
+}
+
+.membership p {
+    width: 215px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+#membership-button {
+    margin: auto;
+}
+
+/* faq section */
+
+#FAQ-section {
+    margin: auto;
+    margin-top: 67px;
+    margin-bottom: 84px;
+    width: 920px;
+    height: 707px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--black);
+}
+
+#FAQ-section * {
+    margin: 0;
+}
+
+#FAQ-section {
+    margin: auto;
+    margin-top: 67px;
+    margin-bottom: 84px;
+
+    width: 920px;
+    height: 707px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: var(--black);
+}
+
+#FAQ-section * {
+    margin: 0;
+}
+
+#FAQ-title {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75.42px;
+
+    align-self: center;
+}
+
+#FAQ-content {
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+}
+
+.FAQ-row-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FAQ-item-block {
+    width: 350px;
+    height: 242px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FAQ-question {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20.11px;
+}
+
+.FAQ-answer {
+    color: var(--transparent-black);
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* footer section */
