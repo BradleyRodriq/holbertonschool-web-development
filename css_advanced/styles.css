@@ -404,10 +404,8 @@ header a {
     margin: auto;
     margin-top: 67px;
     margin-bottom: 84px;
-
     width: 920px;
     height: 707px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -422,8 +420,7 @@ header a {
 #FAQ-title {
     font-weight: 300;
     font-size: 60px;
-    line-height: 75.42px;
-
+    line-height: 75px;
     align-self: center;
 }
 
@@ -462,3 +459,35 @@ header a {
 }
 
 /* footer section */
+
+footer {
+    display: flex;
+    height: 249px;
+    background-color: var(--black);
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 10% 0 10%;
+}
+
+#footer-row-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#footer-sites {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-copyright {
+    color: rgba(255, 255, 255, 0.502);
+
+    text-align: center;
+
+    font-size: 12px;
+    line-height: 15.08px;
+
+    margin-bottom: 39px;
+}
