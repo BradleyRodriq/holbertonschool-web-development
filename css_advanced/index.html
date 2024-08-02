@@ -2,74 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HTML Skeleton</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width">
+
+    <title>CSS Advanced</title>
 </head>
 <body>
+
+    <!-- Header -->
+
     <header>
-        <div class="NavBar">
-            <a class="logo" href="#">
-                <img src="logo.png" alt="SmileSchool">
-            <nav class="NavBar_Links">
-                <a class="NavBar_Link" href="#link1">COURSES</a>
-                <a class="NavBar_Link" href="#link2">PRICING</a>
-                <a class="NavBar_Link" href="#link3">LOGIN</a>
-            </nav>
+        <div id="header-div">
+            <a href=""><img src="logo.png" alt="Logo"></a>
+            <div id="header-links">
+                <a href="">COURSES</a>
+                <a href="">PRICING</a>
+                <a href="">LOGIN</a>
+            </div>
         </div>
-        <section>
-            <div class="first_section">
-                <h1>Get schooled</h1>
-                <div>
-                    <p class="first_section_text">SMILES</p>
-                    <p class="first_section_text">GRIN</p>
-                    <p class="first_section_text">LAUGH</p>
-                </div>
-                <button>REGISTER FOR FREE</button>
-            </div>
-            <div class="second_section">
-                <h2>Learn from the pros</h2>
-                <div class="img_container">
-                    <div class="second_section_text">
-                        <img src="placeholder.jpg">
-                        <h3>Phillip Massey</h3>
-                        <p>Smile of the year</p>
-                        <p>2018-2019</p>
-                    </div>
-                    <div class="second_section_text">
-                        <img src="placeholder.jpg">
-                        <h3>Nannie Lawrence</h3>
-                        <p>Best little smile</p>
-                        <p>2017</p>
-                    </div>
-                    <div class="second_section_text">
-                        <img src="placeholder.jpg">
-                        <h3>Bruce Walters</h3>
-                        <p>Best Friend Smile</p>
-                        <p>live performance 2019</p>
-                    </div>
-                    <div class="second_section_text">
-                        <img src="placeholder.jpg">
-                        <h3>Henry Hughes</h3>
-                        <p>24h smiles winner</p>
-                        <p>2016-2019</p>
-                    </div>
-                </div>
-            </div>
-        </section>
     </header>
+
+    <!-- Banner section -->
+
     <main>
-        <section>
+        <section id="banner-section">
+            <img id="banner-bg" src="background.png">
             <div>
-                <img src="quote-image.jpg" alt="Quote Image">
-                <div>
-                    <blockquote>
-                        "This is an inspiring quote."
-                    </blockquote>
-                    <p>- Quote Author</p>
-                    <p>Additional text related to the quote.</p>
+                <h1>Get schooled</h1>
+                <p id="banner-text">
+                    <span>SMILES</span>
+                    <span>GRIN</span>
+                    <span>LAUGH</span>
+                </p>
+                <button id="banner-button" class="register-button">REGISTER FOR FREE</button>
+            </div>
+
+            <!-- Meet the pros section -->
+
+            <div id="pros-section">
+                <h2><span class="purple-text">Learn</span> from the pros</h2>
+                <div id="pros-quotes">
+                    <div>
+                        <img class="round-image" src="pro.png" alt="Pro">
+                        <h3 class="pro">Author</h3>
+                        <p class="pro-quote">
+                            Quote
+                            <br>
+                            Year
+                        </p>
+                    </div>
+                    <div>
+                        <img class="round-image" src="pro.png" alt="Pro">
+                        <h3 class="pro">Author</h3>
+                        <p class="pro-quote">
+                            Quote
+                            <br>
+                            Year
+                        </p>
+                    </div>
+                    <div>
+                        <img class="round-image" src="pro.png" alt="Pro">
+                        <h3 class="pro">Author</h3>
+                        <p class="pro-quote">
+                            Quote
+                            <br>
+                            Year
+                        </p>
+                    </div>
+                    <div>
+                        <img class="round-image" src="pro.png" alt="Pro">
+                        <h3 class="pro">Author</h3>
+                        <p class="pro-quote">
+                            Quote
+                            <br>
+                            Year
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <!-- Quotes section -->
+
+        <section id="quotes-section">
+            <div id="quote-div">
+                <img src="pro.png" alt="Quote Image">
+                <div id="quote-block">
+                    <blockquote>
+                        "Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!"
+                    </blockquote>
+                    <p id="quote-auth">Person Name</p>
+                    <p id="auth-profession">weather presenter</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Videos section -->
+
         <section>
             <h1>Videos</h1>
             <div>
