@@ -13,7 +13,7 @@ body {
 }
 
 * {
-    font-family: 'Source Sans Pro';
+    font-family: sans-serif;
     margin: 0;
 }
 
@@ -71,9 +71,9 @@ header a {
 /* banner section */
 
 #banner-section {
-    background-color: var(--black);
     color: var(--white);
     text-align: center;
+    background-color: var(--black);
 }
 #banner-section * {
     margin: 0;
@@ -91,11 +91,24 @@ header a {
     padding-top: 220px;
 }
 
+
+
 #banner-bg {
     filter: grayscale(100%);
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 0;
+}
+
+#gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 989px;
+    width: 1440px;
+    background: linear-gradient(to bottom, transparent 1%, var(--black) 100%);
 }
 
 #banner-text {
@@ -483,11 +496,8 @@ footer {
 
 #footer-copyright {
     color: rgba(255, 255, 255, 0.502);
-
     text-align: center;
-
     font-size: 12px;
     line-height: 15.08px;
-
     margin-bottom: 39px;
 }
