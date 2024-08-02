@@ -1,7 +1,5 @@
-Sure! Here’s a comprehensive README.md file that answers all your questions about CSS:
-
 ```markdown
-# CSS Basics
+# CSS Advanced
 
 ## Table of Contents
 1. [What is CSS](#what-is-css)
@@ -154,3 +152,11 @@ Example:
 6. **Painting**: The browser paints the pixels to the screen, displaying the webpage.
 
 This process involves many optimizations and steps like preloading resources, optimizing CSS and JS, and rendering the page progressively.
+
+## This project is currently deployed on Github Pages
+
+https://bradleyrodriq.github.io/holbertonschool-web-development/
+
+## This is what the project was to look like
+
+https://www.figma.com/design/TGOq5IbvEm07EO2OM43KMN/Homepage-(Copy)?node-id=0-1&t=xG3BC0x0TNgmRpip-0
